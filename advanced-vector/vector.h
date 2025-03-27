@@ -25,10 +25,8 @@ public:
 
     RawMemory(const RawMemory &) = delete;
     RawMemory &operator=(const RawMemory &rhs) = delete;
-    RawMemory(RawMemory &&other) noexcept
-        
+    RawMemory(RawMemory &&other) noexcept   
     {
-        RawMemory();
         Swap(other);
     }
 
