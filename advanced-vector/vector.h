@@ -99,7 +99,7 @@ private:
     T *buffer_ = nullptr;
     size_t capacity_ = 0;
 };
-//qwe
+
 template <typename T>
 class Vector
 {
